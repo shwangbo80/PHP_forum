@@ -1,0 +1,95 @@
+/* Default */
+body {
+  background-color: lightgray;
+}
+
+hr {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Bootstrap overwrite */
+.btn:hover {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.container,
+.container-fluid {
+  padding: 0;
+}
+
+@media all and (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+  }
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+  }
+}
+
+/* Custom colors */
+.bg-green {
+  background-color: #298e46;
+}
+.bg-lavander {
+  background-color: #b4adea;
+}
+.bg-gray {
+  background-color: #f8f9fa;
+}
+.bg-yellow {
+  background-color: #ffed65;
+}
+.bg-blue {
+  background-color: #124e78;
+}
+.bg-orange {
+  background-color: #d74e09;
+}
+.text-green {
+  color: #298e46;
+}
+.text-lavander {
+  color: #b4adea;
+}
+.text-gray {
+  color: #f8f9fa;
+}
+.text-yellow {
+  color: #ffed65;
+}
+.text-blue {
+  color: #124e78;
+}
+.text-orange {
+  color: #d74e09;
+}
+
+/* Containers */
+.loginContainer {
+  min-height: 90vh;
+  display: grid;
+}
+
+.loginBox {
+  align-self: center;
+  background-color: #f8f9fa;
+  padding: 0 25px 0 25px;
+  margin: 50px 0 50px 0;
+}
+
+.registerContainer {
+  min-height: 90vh;
+  display: grid;
+}
+
+.registerBox {
+  align-self: center;
+  background-color: #f8f9fa;
+  padding: 0 25px 0 25px;
+  margin: 50px 0 50px 0;
+}
